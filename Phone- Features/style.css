@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+  
+     
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #aac7d8, #a2588f ,#44576d);
+}
+header{
+ width: 100%;
+ left: 0;
+ top: 0;
+display: flex;
+padding: 20px 70px;
+position: fixed;
+align-items: center;
+justify-content: space-between;
+z-index: 100;
+background: transparent;
+}
+header > div {
+    font-family: "Lucida Handwriting";  
+      color: #a2588f;
+      font-size: 16px;
+}
+
+header > div i {
+    color: #a2588f;
+
+}
+header a{
+    position: relative;
+    color: #fff ;
+    font-size: 16px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: "Lucida Handwriting";
+}
+.information{
+    width: 600px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+#circle{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.overlay{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top:0 ;
+    border-top: 300px solid #fff;
+    border-right: 300px solid transparent;
+    border-bottom: 300px solid #fff;
+    border-left: 300px solid #fff;
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: #fff;
+}
+.feature div{
+    margin-left: 10px;
+}
+.feature div p {
+    margin-top: 10px;
+}
+.information i {
+    width: 24px !important;
+    height: 24px !important;
+
+}
+.one{
+    top:450px;
+    right:200px;
+    transform: rotate(-270deg);
+}
+.one i {
+    width: 24px !important;
+    height: 24px !important;
+
+}
+.two{
+    top:250px;
+    left:400px;
+}
+.three{
+    bottom: 500px;
+    left: 200px;
+    transform: rotate(-90deg);
+}
+.four{
+    top: 250px;
+    right: 400px;
+    transform: rotate(-180deg);
+}
+.four i{
+    rotate: 270deg;
+}
+.mobile{
+    width: 120px;
+    position: absolute;
+    top: 300px;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+}
+#up{
+    width: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+#down{
+    width: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+/*.phone::before {
+        content: '';
+        z-index: ;
+        width: 0;
+        height: 0;
+        transform: translate(-250px,0);
+        border-top: 300px solid #fff;
+        border-right: 300px solid transparent;
+        border-bottom: 300px solid #fff;
+        border-left: 300px solid #fff;
+}
+
+.phone .container {
+    position: absolute;
+    display: flex;
+}
+.phone img {
+height: 200px;
+width: 100px;
+transform: translateX(150px);
+}
+.phone .container .div1{
+ position: relative;
+transform: translateY(-50px);
+align-items: center;
+justify-content: center;
+color: white;
+}
+.phone .container .div1 i{
+position: relative;
+rotate: 270deg;
+transform: translate(43px,-20px);
+}
+.phone .container .div2{
+    position: relative;
+    transform: translate(-60px,60px);
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.phone .container .div2 i{
+    position: relative;
+    transform: translate(-20px,-40px);
+    size: 200px;
+}
+.phone .container .div3{
+    position: relative;
+   transform: translate(-400px,200px);
+   align-items: center;
+   justify-content: center;
+   color: white;
+   }
+   .phone .container .div3 i{
+   position: relative;
+   transform: translate(-25px,-40px);
+   }
+   .phone .container .div4{
+    position: relative;
+   transform: translate(-750px,50px);
+   align-items: center;
+   justify-content: center;
+   color: white;
+   }
+   .phone .container .div4 i{
+   position: relative;
+   transform: translate(-25px,-40px);
+   }
+
+.phone .feature{
+    transform: translateX(400px);
+    font-size: 20px;
+}
+
+
+.feature h3{
+color: #fff;
+padding: 10px;
+font-family: "Lucida Handwriting";
+
+}
+/*.phone .feature h3::before{
+    content: '';
+    z-index: -1;
+    width: 0;
+    height: 0;
+    transform: translate(250px,250px);
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid red;
+}
+
+.feature i {
+    color: #fff;
+    transform: translateX(40px);
+    z-index: 100;
+
+}
+/*
