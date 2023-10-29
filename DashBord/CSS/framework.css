@@ -1,0 +1,261 @@
+/*start box*/
+.root{
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --grey-color:#888;
+}
+.f-wrap{
+    flex-wrap: wrap;/*العناصر يلي بتكون اكبر من حجم المجال بتنزل تحت */
+}
+.d-flex{
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap:20px;
+}
+.d-block {
+    display: block;
+}
+@media (max-width:767px) {
+    .block-mobile{
+        display:block;
+    }
+    .hide-mob {
+        display: none;
+    }
+}
+
+/*end box*/
+/*start padding + margine */
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+
+}
+.pt-10{
+padding-top:10px ;
+}
+.pt-15{
+padding-top: 15PX;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.m-0{
+    margin: 0px;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+
+}
+.mt-0 {
+    margin-top: 0px;
+
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mr-10{
+margin-right: 10px ;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+/* end padding + margin */
+/*start color*/
+.bg-white{
+    background-color: white;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-orange {
+    background-color: orange;
+}
+.bg-green {
+    background-color:green;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-eee{
+    background-color: #eee;
+}
+
+.c-black{
+    color: black;
+}
+.c-grey{
+    color: var(--grey-color);
+}
+.c-white{
+    color: white;
+}
+.c-orange{
+    color: orange;
+}
+.c-green{
+    color: green;
+}
+.c-red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+
+/*end color */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/*start font*/
+.txt-c{
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile {
+      text-align: center;
+
+    }
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.w-fit {
+width: fit-content;
+}
+.w-100{
+    width:100px;
+}
+.h-100{
+    height:100px ;
+}
+@media (max-width:767px) {
+    .txt-c-mobile {
+        text-align: center;
+}
+}
+
+/*end font*/
+/*start border*/
+.rad-6{
+    border-radius: 6px;
+}
+.rad-half {
+border-radius: 50%;
+}
+/*end border*/
+  .w-full{
+        width:100%; 
+    }
+
+.h-full{
+        height: 100%;
+}
+.w-fit{
+    width:fit-content
+}
+/*start component*/
+.center-flex {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-between{
+    justify-content: space-between;
+}
+.b-none{
+    border: none;       
+}
+.btn-shape{
+    padding: 4px 10px ;
+    border-radius: 6px;
+}
+.b-ccc{
+border: 1px solid #ccc;
+}
+.border-eee{
+    border: 1px solid #eee
+}
+
+/*end component*/
